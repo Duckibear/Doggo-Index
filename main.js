@@ -27,6 +27,7 @@ fetch(BREEDS_URL)
           let url = `https://dog.ceo/api/breed/${event.target.value}/images/random`
           getDoggoImg(url)
           doggoInfo.assigngender()
+          doggoInfo.assignAge()
           doggoInfo.assignName()
           doggoInfo.assignLikes()
           doggoInfo.assignDislikes()
