@@ -1,0 +1,46 @@
+html {
+     font-family: 'Lora', serif;
+     background: linear-gradient(rgba(144, 238, 144, 0.473), rgb(5, 83, 5));
+     height: 100vh;
+}
+
+ul {
+     list-style: none;
+}
+
+header {
+     margin-bottom: 15px;
+     text-align: center;
+}
+
+select {
+     font-size: 1rem;
+}
+
+.sectionContainer {
+     display: flex;
+     padding-left: 10vw;
+     padding-right: 10vw;
+}
+
+.column {
+     flex: 1;
+}
+
+img {
+     max-width: 200px;
+     max-height: 250px;
+}
+
+span {
+     font-weight: bold;
+     font-size: 1.1em;
+}
+
+#dogName {
+     font-size: 1.2rem;
+}
+
+#leftColumn {
+     text-align: center;
+}
