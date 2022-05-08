@@ -72,7 +72,6 @@ fetch(BREEDS_URL)
           },
 
           assignName(array) {
-               let array = doggoInfo.fNames;
                this.rname = array[Math.floor(Math.random() * array.length)]
                document.getElementById('dogName').innerHTML = `Meet: ${this.rname}`
            },
